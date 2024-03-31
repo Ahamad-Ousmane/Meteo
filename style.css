@@ -67,7 +67,7 @@ label{
 
 input{
     background-color: rgba(255, 255, 255, 0.7); /* Fond semi-transparent */
-    color: #ffff; /* Texte noir */
+    color: #000; /* Texte noir */
     padding: 10px;
     border-radius: 5px; /* Coins arrondis */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre portée */
@@ -110,7 +110,7 @@ button{
     }
 
     #weather{
-        margin: 0;
+        margin-left: 20px;
     }
 
     form{
@@ -126,14 +126,18 @@ button{
 
     input{
         background-color: rgba(255, 255, 255, 0.9); /* Augmenter l'opacité pour améliorer la visibilité */
-        color: #ffff; /* Texte noir */
+        color: #000; /* Texte noir */
         /* Autres ajustements pour les appareils mobiles */
     }
-    /* .weather-card{
-        height: 100px;
-    } */
+    .weather-card{
+        height: 300px;
+    }
     /* .weather-card img{
         width: 30px;
         height: 30px;
     } */
+
+    body{
+        background-position: center;
+    }
 }
