@@ -79,7 +79,7 @@ setInterval(disparaitre, 2000);
 
 function f(event){
     event.preventDefault();
-    w = document.getElementById('weather');
+    var w = document.getElementById('weather');
     w.innerHTML = "";
     var i = document.getElementById('city');
     i.value = "";
