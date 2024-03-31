@@ -72,6 +72,10 @@ input{
     border-radius: 5px; /* Coins arrondis */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre portée */
 }
+
+.bct{
+    margin-top: 12px;
+}
 button{
     cursor: pointer;
     background-color: rgb(117, 214, 241);
