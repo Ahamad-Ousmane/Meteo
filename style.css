@@ -1,0 +1,139 @@
+html,body{
+    overflow: hidden;
+    height: 100%;
+}
+body{
+    background-image: url('img/alberta-2297204_640.jpg');
+    background-size: cover;
+    transition: backgroung-image 0.5s ease;
+}
+
+
+.background-0{
+    background-image: url('img/avenue-2215317_640.jpg');
+}
+.background-1{
+    background-image: url('img/forest-1072828_640.jpg');
+
+}
+.background-2{
+    background-image: url('img/mountains-190055_640.jpg');
+}
+.background-3{
+    background-image: url('img/sunrise-1014712_640.jpg');
+}
+.background-4{
+    background-image: url('img/tree-736885_1280.jpg');
+}
+.background-5{
+    background-image: url('img/wolf-647528_640.jpg');
+}
+.container {
+    max-width: 800px;
+    text-align: center;
+    margin: 25% 50% 50% 50%;
+    color: #fff; /* Couleur de texte */
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Ombre portée */
+}
+
+
+#texte{
+    animation: clignoter 3s infinite alternate;
+    font-size: 30px;
+    font-weight: bold;
+}
+@keyframes clignoter{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+h1{
+    margin-top: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+label{
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+input{
+    background-color: rgba(255, 255, 255, 0.7); /* Fond semi-transparent */
+    color: #000; /* Texte noir */
+    padding: 10px;
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre portée */
+}
+button{
+    cursor: pointer;
+    background-color: rgb(117, 214, 241);
+}
+#weather {
+    margin-top: 50px;
+    display: none;
+    margin-left: 40%;
+}
+
+
+
+.weather-card {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffff;
+    border-radius: 5px;
+
+}
+
+.weather-card h2{
+    margin-top: 0;
+}
+.weather-card img{
+    width: 100%;
+    height: 100%;
+}
+.weather-card p {
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        margin: 0;
+    }
+
+    #weather{
+        margin: 0;
+    }
+
+    form{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    body,html{
+        overflow: auto;
+    }
+    #texte{
+        font-size: 20px;
+    }
+
+    input{
+        background-color: rgba(255, 255, 255, 0.9); /* Augmenter l'opacité pour améliorer la visibilité */
+        color: #000; /* Texte noir */
+        /* Autres ajustements pour les appareils mobiles */
+    }
+    /* .weather-card{
+        height: 100px;
+    } */
+    /* .weather-card img{
+        width: 30px;
+        height: 30px;
+    } */
+}
