@@ -76,3 +76,8 @@ function disparaitre(){
 }
 
 setInterval(disparaitre, 2000);
+
+function f(){
+    w = document.getElementById('weather');
+    w.innerHTML = "";
+}
