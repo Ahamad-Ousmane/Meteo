@@ -81,5 +81,5 @@ function f(){
     w = document.getElementById('weather');
     w.innerHTML = "";
     i = document.getElementById('city');
-    i.value = "";
+    i.value = null;
 }
