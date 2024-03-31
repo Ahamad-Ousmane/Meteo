@@ -80,6 +80,6 @@ setInterval(disparaitre, 2000);
 function f(){
     w = document.getElementById('weather');
     w.innerHTML = "";
-    i = document.getElementById('city');
-    i.value = null;
+    var i = document.getElementById('city');
+    i.value = "";
 }
