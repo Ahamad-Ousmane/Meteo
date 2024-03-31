@@ -77,8 +77,7 @@ function disparaitre(){
 
 setInterval(disparaitre, 2000);
 
-function f(event){
-    event.preventDefault();
+function f(){
     var w = document.getElementById('weather');
     w.innerHTML = "";
     var i = document.getElementById('city');
