@@ -10,22 +10,28 @@ body{
 
 .background-0{
     background-image: url('img/avenue-2215317_640.jpg');
+    background-size: cover;
 }
 .background-1{
     background-image: url('img/forest-1072828_640.jpg');
+    background-size: cover;
 
 }
 .background-2{
     background-image: url('img/mountains-190055_640.jpg');
+    background-size: cover;
 }
 .background-3{
     background-image: url('img/sunrise-1014712_640.jpg');
+    background-size: cover;
 }
 .background-4{
     background-image: url('img/tree-736885_1280.jpg');
+    background-size: cover;
 }
 .background-5{
     background-image: url('img/wolf-647528_640.jpg');
+    background-size: cover;
 }
 .container {
     max-width: 800px;
